@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		88DB5ACF2813FA6B005FB295 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5ACE2813FA6B005FB295 /* LandmarksApp.swift */; };
-		88DB5AD12813FA6B005FB295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5AD02813FA6B005FB295 /* ContentView.swift */; };
 		88DB5AD32813FA6F005FB295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DB5AD22813FA6F005FB295 /* Assets.xcassets */; };
 		88DB5AD62813FA6F005FB295 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DB5AD52813FA6F005FB295 /* Preview Assets.xcassets */; };
 		88DB5AEB2813FAB8005FB295 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88DB5ADD2813FAB8005FB295 /* charleyrivers.jpg */; };
@@ -27,6 +26,7 @@
 		88DB5AF82813FAB8005FB295 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88DB5AEA2813FAB8005FB295 /* rainbowlake.jpg */; };
 		88DB5AFA2813FAF9005FB295 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5AF92813FAF9005FB295 /* CircleImage.swift */; };
 		88DB5AFC2813FB65005FB295 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5AFB2813FB65005FB295 /* MapView.swift */; };
+		88DB5B00281409B7005FB295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB5AD02813FA6B005FB295 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,8 +67,6 @@
 		88DB5AC22813FA6B005FB295 = {
 			isa = PBXGroup;
 			children = (
-				88DB5AFB2813FB65005FB295 /* MapView.swift */,
-				88DB5AF92813FAF9005FB295 /* CircleImage.swift */,
 				88DB5ACD2813FA6B005FB295 /* Landmarks */,
 				88DB5ACC2813FA6B005FB295 /* Products */,
 			);
@@ -85,6 +83,8 @@
 		88DB5ACD2813FA6B005FB295 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				88DB5AFB2813FB65005FB295 /* MapView.swift */,
+				88DB5AF92813FAF9005FB295 /* CircleImage.swift */,
 				88DB5ACE2813FA6B005FB295 /* LandmarksApp.swift */,
 				88DB5AD02813FA6B005FB295 /* ContentView.swift */,
 				88DB5ADC2813FAB8005FB295 /* Resources */,
@@ -207,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88DB5AD12813FA6B005FB295 /* ContentView.swift in Sources */,
 				88DB5AFC2813FB65005FB295 /* MapView.swift in Sources */,
 				88DB5ACF2813FA6B005FB295 /* LandmarksApp.swift in Sources */,
+				88DB5B00281409B7005FB295 /* ContentView.swift in Sources */,
 				88DB5AFA2813FAF9005FB295 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
