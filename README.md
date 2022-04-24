@@ -1,4 +1,4 @@
-# practice_swift_ui
+# Practice Swift UI
 
 - [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui/)
 
@@ -11,6 +11,15 @@ https://user-images.githubusercontent.com/29055497/164950777-0d4f019e-facc-4850-
 
 
 ## Chapter2 Drawing and Animation
+
+![スクリーンショット 2022-04-24 15 07 51](https://user-images.githubusercontent.com/29055497/164959137-bdb1cfad-b81d-436d-85a3-b230925af7e9.png)
+
+
+
+
+https://user-images.githubusercontent.com/29055497/164959151-bc71cd37-7232-44e5-a8c8-bf37c231c3f4.mov
+
+
 
 ## Chapter3 App Design and Layout
 
