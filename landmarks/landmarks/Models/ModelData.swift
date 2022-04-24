@@ -7,7 +7,15 @@
 
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+import Combine
+
+// Combineフレームワークのプロトコルに準拠するObservableObjectを作ると、監視可能なオブジェクトとなり、
+//SwiftUIがそのオブジェクトをサブスクライブし、データが変更されたタイミングでビューを更新する
+final class ModelData: ObservableObject {
+    // サブスクライバーが変更を取得できるように、Published属性で公開する
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
