@@ -1,6 +1,6 @@
 //
-//  landmarksApp.swift
-//  landmarks
+//  LandmarksApp.swift
+//  Landmarks
 //
 //  Created by tomonakar on 2022/04/23.
 //
@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct landmarksApp: App {
+struct LandmarksApp: App {
+    @StateObject private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }
